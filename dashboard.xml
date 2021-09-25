@@ -1,0 +1,246 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="dashboard">
+	<table_structure name="education">
+		<field Field="city" Type="varchar(20)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pvtsch" Type="int" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="govsch" Type="int" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="boys" Type="int" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="girls" Type="int" Null="YES" Key="" Extra="" Comment="" />
+		<options Name="education" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="10" Avg_row_length="1638" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Create_time="2021-09-25 16:13:00" Update_time="2021-09-25 16:13:00" Collation="utf8mb4_0900_ai_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="education">
+	<row>
+		<field name="city">Pune</field>
+		<field name="pvtsch">25</field>
+		<field name="govsch">5</field>
+		<field name="boys">100</field>
+		<field name="girls">90</field>
+	</row>
+	<row>
+		<field name="city">nashik</field>
+		<field name="pvtsch">20</field>
+		<field name="govsch">10</field>
+		<field name="boys">115</field>
+		<field name="girls">60</field>
+	</row>
+	<row>
+		<field name="city">satara</field>
+		<field name="pvtsch">25</field>
+		<field name="govsch">15</field>
+		<field name="boys">116</field>
+		<field name="girls">75</field>
+	</row>
+	<row>
+		<field name="city">sangali</field>
+		<field name="pvtsch">22</field>
+		<field name="govsch">17</field>
+		<field name="boys">125</field>
+		<field name="girls">100</field>
+	</row>
+	<row>
+		<field name="city">nagar</field>
+		<field name="pvtsch">25</field>
+		<field name="govsch">18</field>
+		<field name="boys">130</field>
+		<field name="girls">75</field>
+	</row>
+	<row>
+		<field name="city">kolhapur</field>
+		<field name="pvtsch">30</field>
+		<field name="govsch">25</field>
+		<field name="boys">150</field>
+		<field name="girls">140</field>
+	</row>
+	<row>
+		<field name="city">akola</field>
+		<field name="pvtsch">35</field>
+		<field name="govsch">30</field>
+		<field name="boys">200</field>
+		<field name="girls">150</field>
+	</row>
+	<row>
+		<field name="city">amaravati</field>
+		<field name="pvtsch">40</field>
+		<field name="govsch">25</field>
+		<field name="boys">180</field>
+		<field name="girls">160</field>
+	</row>
+	<row>
+		<field name="city">nagpur</field>
+		<field name="pvtsch">25</field>
+		<field name="govsch">25</field>
+		<field name="boys">180</field>
+		<field name="girls">160</field>
+	</row>
+	<row>
+		<field name="city">ratnagiri</field>
+		<field name="pvtsch">15</field>
+		<field name="govsch">20</field>
+		<field name="boys">200</field>
+		<field name="girls">190</field>
+	</row>
+	</table_data>
+	<table_structure name="revenu">
+		<field Field="directtax" Type="int" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="indirecttax" Type="int" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="rentals" Type="int" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="penalties" Type="int" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="investments" Type="int" Null="YES" Key="" Extra="" Comment="" />
+		<options Name="revenu" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="10" Avg_row_length="1638" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Create_time="2021-09-25 16:13:00" Update_time="2021-09-25 16:13:00" Collation="utf8mb4_0900_ai_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="revenu">
+	<row>
+		<field name="directtax">1000</field>
+		<field name="indirecttax">2000</field>
+		<field name="rentals">5000</field>
+		<field name="penalties">1500</field>
+		<field name="investments">10000</field>
+	</row>
+	<row>
+		<field name="directtax">2000</field>
+		<field name="indirecttax">4000</field>
+		<field name="rentals">10000</field>
+		<field name="penalties">3000</field>
+		<field name="investments">20000</field>
+	</row>
+	<row>
+		<field name="directtax">3000</field>
+		<field name="indirecttax">5000</field>
+		<field name="rentals">15000</field>
+		<field name="penalties">1500</field>
+		<field name="investments">30000</field>
+	</row>
+	<row>
+		<field name="directtax">4000</field>
+		<field name="indirecttax">6000</field>
+		<field name="rentals">10000</field>
+		<field name="penalties">2000</field>
+		<field name="investments">20000</field>
+	</row>
+	<row>
+		<field name="directtax">5000</field>
+		<field name="indirecttax">7000</field>
+		<field name="rentals">7000</field>
+		<field name="penalties">3000</field>
+		<field name="investments">30000</field>
+	</row>
+	<row>
+		<field name="directtax">6000</field>
+		<field name="indirecttax">4000</field>
+		<field name="rentals">5000</field>
+		<field name="penalties">1000</field>
+		<field name="investments">30000</field>
+	</row>
+	<row>
+		<field name="directtax">7000</field>
+		<field name="indirecttax">5000</field>
+		<field name="rentals">2500</field>
+		<field name="penalties">2500</field>
+		<field name="investments">60000</field>
+	</row>
+	<row>
+		<field name="directtax">8000</field>
+		<field name="indirecttax">6000</field>
+		<field name="rentals">5000</field>
+		<field name="penalties">1600</field>
+		<field name="investments">15000</field>
+	</row>
+	<row>
+		<field name="directtax">9000</field>
+		<field name="indirecttax">5000</field>
+		<field name="rentals">2500</field>
+		<field name="penalties">1300</field>
+		<field name="investments">15000</field>
+	</row>
+	<row>
+		<field name="directtax">10000</field>
+		<field name="indirecttax">25000</field>
+		<field name="rentals">20000</field>
+		<field name="penalties">9000</field>
+		<field name="investments">90000</field>
+	</row>
+	</table_data>
+	<table_structure name="socialsecurity">
+		<field Field="criminal complains" Type="int" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="domestic complains" Type="int" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="Industry complaints" Type="int" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="month" Type="int" Null="YES" Key="" Extra="" Comment="" />
+		<options Name="socialsecurity" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="12" Avg_row_length="1365" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Create_time="2021-09-25 16:13:00" Update_time="2021-09-25 16:13:00" Collation="utf8mb4_0900_ai_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="socialsecurity">
+	<row>
+		<field name="criminal complains">10</field>
+		<field name="domestic complains">2</field>
+		<field name="Industry complaints">5</field>
+		<field name="month">1</field>
+	</row>
+	<row>
+		<field name="criminal complains">20</field>
+		<field name="domestic complains">3</field>
+		<field name="Industry complaints">6</field>
+		<field name="month">2</field>
+	</row>
+	<row>
+		<field name="criminal complains">30</field>
+		<field name="domestic complains">6</field>
+		<field name="Industry complaints">7</field>
+		<field name="month">3</field>
+	</row>
+	<row>
+		<field name="criminal complains">40</field>
+		<field name="domestic complains">7</field>
+		<field name="Industry complaints">5</field>
+		<field name="month">4</field>
+	</row>
+	<row>
+		<field name="criminal complains">50</field>
+		<field name="domestic complains">5</field>
+		<field name="Industry complaints">10</field>
+		<field name="month">5</field>
+	</row>
+	<row>
+		<field name="criminal complains">60</field>
+		<field name="domestic complains">6</field>
+		<field name="Industry complaints">8</field>
+		<field name="month">6</field>
+	</row>
+	<row>
+		<field name="criminal complains">70</field>
+		<field name="domestic complains">7</field>
+		<field name="Industry complaints">6</field>
+		<field name="month">7</field>
+	</row>
+	<row>
+		<field name="criminal complains">80</field>
+		<field name="domestic complains">9</field>
+		<field name="Industry complaints">15</field>
+		<field name="month">8</field>
+	</row>
+	<row>
+		<field name="criminal complains">90</field>
+		<field name="domestic complains">10</field>
+		<field name="Industry complaints">10</field>
+		<field name="month">9</field>
+	</row>
+	<row>
+		<field name="criminal complains">50</field>
+		<field name="domestic complains">10</field>
+		<field name="Industry complaints">11</field>
+		<field name="month">10</field>
+	</row>
+	<row>
+		<field name="criminal complains">45</field>
+		<field name="domestic complains">6</field>
+		<field name="Industry complaints">9</field>
+		<field name="month">11</field>
+	</row>
+	<row>
+		<field name="criminal complains">90</field>
+		<field name="domestic complains">10</field>
+		<field name="Industry complaints">10</field>
+		<field name="month">12</field>
+	</row>
+	</table_data>
+</database>
+</mysqldump>
